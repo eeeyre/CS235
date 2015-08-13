@@ -1,0 +1,210 @@
+[1m[34mInitializing Test Driver
+[0m. . . [1m[34m
+Beginning Tests:
+[0m[1m[34mTest 1: Empty List Test
+[0m[1m[36mTest 1 Passed!
+[0m[1m[34mTest 2: Basic Insert Test
+[0m[1m[36mTest 2 Passed!
+[0m[1m[34mTest 3: Clear Test
+[0m[1m[35m[size()]: Returned (20), should have returned (0) 
+[0m[1m[35m[clear()]: Student:  [0, 18, 4, 8, 11, 13, 7, 3, 6, 17, 10, 19, 5, 1, 16, 2, 12, 9, 14, 15]
+           Expected: [13, 1, 4, 0, 10, 14, 16, 3, 7, 11, 12, 17, 2, 18, 19, 5, 15, 9, 8, 6]
+[0m[1m[31mTest 3 Failed!
+[0m[1m[34mTest 4: Insert Test
+[0m[1m[36mTest 4 Passed!
+[0m[1m[34mTest 5: Random Insert Test
+[0m[1m[35m[insertAfter(8, 19)]: Student:  [4, 0, 8, 15, 19, 8, 3]
+                      Expected: [4, 0, 8, 15, 19, 3]
+[0m[1m[35m[insertHead(13)]: Student:  [13, 4, 0, 8, 15, 19, 8, 3]
+                  Expected: [13, 4, 0, 8, 15, 19, 3]
+[0m[1m[35m[insertHead(2)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3]
+                 Expected: [2, 13, 4, 0, 8, 15, 19, 3]
+[0m[1m[35m[insertTail(14)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14]
+                  Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14]
+[0m[1m[35m[insertTail(18)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 18]
+                  Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 18]
+[0m[1m[35m[insertHead(3)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 18]
+                 Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 18]
+[0m[1m[35m[insertTail(13)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 18]
+                  Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 18]
+[0m[1m[35m[insertTail(9)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 18, 9]
+                 Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 18, 9]
+[0m[1m[35m[insertAfter(7, 14)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 18, 9]
+                      Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 18, 9]
+[0m[1m[35m[insertTail(2)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 18, 9]
+                 Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 18, 9]
+[0m[1m[35m[insertTail(0)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 18, 9]
+                 Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 18, 9]
+[0m[1m[35m[insertAfter(6, 7)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9]
+                     Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9]
+[0m[1m[35m[insertHead(15)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9]
+                  Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9]
+[0m[1m[35m[insertTail(11)]: Student:  [2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 11]
+                  Expected: [2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11]
+[0m[1m[35m[insertHead(5)]: Student:  [5, 2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 11]
+                 Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11]
+[0m[1m[35m[insertTail(10)]: Student:  [5, 2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 11, 10]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10]
+[0m[1m[35m[insertTail(5)]: Student:  [5, 2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 11, 10]
+                 Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10]
+[0m[1m[35m[insertHead(10)]: Student:  [5, 2, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 11, 10]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10]
+[0m[1m[35m[insertAfter(6, 2)]: Student:  [5, 2, 6, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 11, 10]
+                     Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10]
+[0m[1m[35m[insertAfter(4, 9)]: Student:  [5, 2, 6, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10]
+                     Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10]
+[0m[1m[35m[insertTail(1)]: Student:  [5, 2, 6, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1]
+                 Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1]
+[0m[1m[35m[insertTail(14)]: Student:  [5, 2, 6, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1]
+[0m[1m[35m[insertTail(12)]: Student:  [5, 2, 6, 13, 4, 0, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12]
+[0m[1m[35m[insertAfter(12, 0)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12]
+                      Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12]
+[0m[1m[35m[insertTail(16)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12, 16]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16]
+[0m[1m[35m[insertAfter(7, 8)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12, 16]
+                     Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16]
+[0m[1m[35m[insertTail(9)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12, 16]
+                 Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16]
+[0m[1m[35m[insertHead(1)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12, 16]
+                 Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16]
+[0m[1m[35m[insertTail(17)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 12, 16, 17]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16, 17]
+[0m[1m[35m[insertAfter(19, 1)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 19, 12, 16, 17]
+                      Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16, 17]
+[0m[1m[35m[insertHead(16)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 19, 12, 16, 17]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16, 17]
+[0m[1m[35m[insertHead(11)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 19, 12, 16, 17]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16, 17]
+[0m[1m[35m[insertHead(17)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 19, 12, 16, 17]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16, 17]
+[0m[1m[35m[insertHead(18)]: Student:  [5, 2, 6, 13, 4, 0, 12, 8, 7, 15, 19, 8, 3, 14, 7, 6, 18, 9, 4, 11, 10, 1, 19, 12, 16, 17]
+                  Expected: [5, 2, 13, 4, 0, 8, 15, 19, 3, 14, 7, 6, 18, 9, 11, 10, 1, 12, 16, 17]
+[0m[1m[31mTest 5 Failed!
+[0m[1m[34mTest 6: Remove Test
+[0m[1m[35m[remove(16)]: Student:  [16, 11, 15, 13, 2, 1, 18, 4, 0, 8, 7, 6, 19, 10, 5, 17, 14, 12, 3]
+              Expected: [11, 15, 13, 2, 1, 18, 4, 0, 8, 7, 6, 19, 10, 5, 17, 14, 12, 3]
+[0m[1m[35m[remove(19)]: Student:  [16, 11, 15, 13, 2, 1, 18, 4, 0, 8, 7, 6, 10, 5, 17, 14, 12, 3]
+              Expected: [11, 15, 13, 2, 1, 18, 4, 0, 8, 7, 6, 10, 5, 17, 14, 12, 3]
+[0m[1m[35m[remove(15)]: Student:  [16, 11, 13, 2, 1, 18, 4, 0, 8, 7, 6, 10, 5, 17, 14, 12, 3]
+              Expected: [11, 13, 2, 1, 18, 4, 0, 8, 7, 6, 10, 5, 17, 14, 12, 3]
+[0m[1m[35m[remove(0)]: Student:  [16, 11, 13, 2, 1, 18, 4, 8, 7, 6, 10, 5, 17, 14, 12, 3]
+             Expected: [11, 13, 2, 1, 18, 4, 8, 7, 6, 10, 5, 17, 14, 12, 3]
+[0m[1m[35m[remove(14)]: Student:  [16, 11, 13, 2, 1, 18, 4, 8, 7, 6, 10, 5, 17, 12, 3]
+              Expected: [11, 13, 2, 1, 18, 4, 8, 7, 6, 10, 5, 17, 12, 3]
+[0m[1m[35m[remove(17)]: Student:  [16, 11, 13, 2, 1, 18, 4, 8, 7, 6, 10, 5, 12, 3]
+              Expected: [11, 13, 2, 1, 18, 4, 8, 7, 6, 10, 5, 12, 3]
+[0m[1m[35m[remove(8)]: Student:  [16, 11, 13, 2, 1, 18, 4, 7, 6, 10, 5, 12, 3]
+             Expected: [11, 13, 2, 1, 18, 4, 7, 6, 10, 5, 12, 3]
+[0m[1m[35m[remove(1)]: Student:  [16, 11, 13, 2, 18, 4, 7, 6, 10, 5, 12, 3]
+             Expected: [11, 13, 2, 18, 4, 7, 6, 10, 5, 12, 3]
+[0m[1m[35m[remove(5)]: Student:  [16, 11, 13, 2, 18, 4, 7, 6, 10, 12, 3]
+             Expected: [11, 13, 2, 18, 4, 7, 6, 10, 12, 3]
+[0m[1m[35m[remove(3)]: Student:  [16, 11, 13, 2, 18, 4, 7, 6, 10, 12]
+             Expected: [11, 13, 2, 18, 4, 7, 6, 10, 12]
+[0m[1m[35m[remove(7)]: Student:  [16, 11, 13, 2, 18, 4, 6, 10, 12]
+             Expected: [11, 13, 2, 18, 4, 6, 10, 12]
+[0m[1m[35m[remove(18)]: Student:  [16, 11, 13, 2, 4, 6, 10, 12]
+              Expected: [11, 13, 2, 4, 6, 10, 12]
+[0m[1m[35m[remove(12)]: Student:  [16, 11, 13, 2, 4, 6, 10]
+              Expected: [11, 13, 2, 4, 6, 10]
+[0m[1m[35m[remove(4)]: Student:  [16, 11, 13, 2, 6, 10]
+             Expected: [11, 13, 2, 6, 10]
+[0m[1m[35m[remove(10)]: Student:  [16, 11, 13, 2, 6]
+              Expected: [11, 13, 2, 6]
+[0m[1m[35m[remove(11)]: Student:  [16, 13, 2, 6]
+              Expected: [13, 2, 6]
+[0m[1m[35m[remove(6)]: Student:  [16, 13, 2]
+             Expected: [13, 2]
+[0m[1m[35m[remove(2)]: Student:  [16, 13]
+             Expected: [13]
+[0m[1m[35m[remove(13)]: Student:  [16]
+              Expected: []
+[0m[1m[31mTest 6 Failed!
+[0m[1m[34mTest 7: Comprehensive Test
+[0m[1m[35m[clear()]: Student:  [14, 31]
+           Expected: []
+[0m[1m[35m[insertTail(15)]: Student:  [14, 31, 15]
+                  Expected: [15]
+[0m[1m[31msegmentation fault
+[0m[1m[34mThis segmentation fault was most likely caused by insertHead(), insertTail(), insertAfter(), or remove()
+[0m[1m[34mInitializing Test Driver
+[0m. . . [1m[34m
+Beginning Tests:
+[0m[1m[34mTest 1: Empty List Test
+[0m[1m[36mTest 1 Passed!
+[0m[1m[34mTest 2: Basic Insert Test
+[0m[1m[34mInitializing Test Driver
+[0m. . . [1m[34m
+Beginning Tests:
+[0m[1m[34mTest 1: Empty List Test
+[0m[1m[36mTest 1 Passed!
+[0m[1m[34mTest 2: Basic Insert Test
+[0m[1m[36mTest 2 Passed!
+[0m[1m[34mTest 3: Clear Test
+[0m[1m[36mTest 3 Passed!
+[0m[1m[34mTest 4: Insert Test
+[0m[1m[36mTest 4 Passed!
+[0m[1m[34mTest 5: Random Insert Test
+[0m[1m[36mTest 5 Passed!
+[0m[1m[34mTest 6: Remove Test
+[0m[1m[35m[remove(10)]: Student:  []
+              Expected: [18, 15, 19, 17, 4, 6, 16, 0, 2, 11, 7, 3, 13, 9, 12, 1, 8, 14, 5]
+[0m[1m[35m[remove(8)]: Student:  []
+             Expected: [18, 15, 19, 17, 4, 6, 16, 0, 2, 11, 7, 3, 13, 9, 12, 1, 14, 5]
+[0m[1m[35m[remove(6)]: Student:  []
+             Expected: [18, 15, 19, 17, 4, 16, 0, 2, 11, 7, 3, 13, 9, 12, 1, 14, 5]
+[0m[1m[35m[remove(13)]: Student:  []
+              Expected: [18, 15, 19, 17, 4, 16, 0, 2, 11, 7, 3, 9, 12, 1, 14, 5]
+[0m[1m[35m[remove(12)]: Student:  []
+              Expected: [18, 15, 19, 17, 4, 16, 0, 2, 11, 7, 3, 9, 1, 14, 5]
+[0m[1m[35m[remove(5)]: Student:  []
+             Expected: [18, 15, 19, 17, 4, 16, 0, 2, 11, 7, 3, 9, 1, 14]
+[0m[1m[35m[remove(14)]: Student:  []
+              Expected: [18, 15, 19, 17, 4, 16, 0, 2, 11, 7, 3, 9, 1]
+[0m[1m[35m[remove(18)]: Student:  []
+              Expected: [15, 19, 17, 4, 16, 0, 2, 11, 7, 3, 9, 1]
+[0m[1m[35m[remove(17)]: Student:  []
+              Expected: [15, 19, 4, 16, 0, 2, 11, 7, 3, 9, 1]
+[0m[1m[35m[remove(3)]: Student:  []
+             Expected: [15, 19, 4, 16, 0, 2, 11, 7, 9, 1]
+[0m[1m[35m[remove(16)]: Student:  []
+              Expected: [15, 19, 4, 0, 2, 11, 7, 9, 1]
+[0m[1m[35m[remove(0)]: Student:  []
+             Expected: [15, 19, 4, 2, 11, 7, 9, 1]
+[0m[1m[35m[remove(4)]: Student:  []
+             Expected: [15, 19, 2, 11, 7, 9, 1]
+[0m[1m[35m[remove(7)]: Student:  []
+             Expected: [15, 19, 2, 11, 9, 1]
+[0m[1m[35m[remove(9)]: Student:  []
+             Expected: [15, 19, 2, 11, 1]
+[0m[1m[35m[remove(2)]: Student:  []
+             Expected: [15, 19, 11, 1]
+[0m[1m[35m[remove(11)]: Student:  []
+              Expected: [15, 19, 1]
+[0m[1m[35m[remove(19)]: Student:  []
+              Expected: [15, 1]
+[0m[1m[35m[remove(1)]: Student:  []
+             Expected: [15]
+[0m[1m[31mTest 6 Failed!
+[0m[1m[34mTest 7: Comprehensive Test
+[0m[1m[35m[remove(40)]: Student:  []
+              Expected: [16, 39, 1]
+[0m[1m[35m[insertTail(0)]: Student:  [0]
+                 Expected: [16, 39, 1, 0]
+[0m[1m[35m[insertTail(8)]: Student:  [0, 8]
+                 Expected: [16, 39, 1, 0, 8]
+[0m[1m[35m[remove(33)]: Student:  []
+              Expected: [16, 39, 1, 0, 8]
+[0m[1m[35m[remove(46)]: Student:  []
+              Expected: [16, 39, 1, 0, 8]
+[0m[1m[35m[remove(31)]: Student:  []
+              Expected: [10]
+[0m[1m[35m[insertTail(18)]: Student:  [18]
+                  Expected: [10, 18]
+[0m[1m[35m[remove(7)]: Student:  []
+             Expected: [10, 18]
+[0m[1m[31msegmentation fault
+[0m[1m[34mThis segmentation fault was most likely caused by insertHead(), insertTail(), insertAfter(), or remove()
+[0m

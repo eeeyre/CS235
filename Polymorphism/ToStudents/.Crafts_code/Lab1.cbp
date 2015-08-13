@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lab1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Lab1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Lab1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Archer.cpp" />
+		<Unit filename="Archer.h" />
+		<Unit filename="Arena.cpp" />
+		<Unit filename="Arena.h" />
+		<Unit filename="ArenaInterface.h" />
+		<Unit filename="Battle.h" />
+		<Unit filename="Cleric.cpp" />
+		<Unit filename="Cleric.h" />
+		<Unit filename="Factory.cpp" />
+		<Unit filename="Factory.h" />
+		<Unit filename="Fighter.cpp" />
+		<Unit filename="Fighter.h" />
+		<Unit filename="FighterInterface.h" />
+		<Unit filename="Robot.cpp" />
+		<Unit filename="Robot.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

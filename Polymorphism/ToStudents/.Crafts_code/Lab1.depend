@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1380170571 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Archer.cpp
+	"Archer.h"
+
+1380170571 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Archer.h
+	"Fighter.h"
+
+1380171592 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Fighter.h
+	"FighterInterface.h"
+	<vector>
+
+1364229310 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/FighterInterface.h
+	<iostream>
+	<string>
+	<vector>
+

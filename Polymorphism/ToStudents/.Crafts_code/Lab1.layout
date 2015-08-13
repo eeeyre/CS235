@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Archer.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="20" topLine="0" />
+	</File>
+	<File name="Archer.h" open="1" top="0" tabpos="4">
+		<Cursor position="20" topLine="0" />
+	</File>
+	<File name="Arena.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="96" topLine="0" />
+	</File>
+	<File name="Arena.h" open="1" top="0" tabpos="3">
+		<Cursor position="211" topLine="0" />
+	</File>
+	<File name="ArenaInterface.h" open="1" top="0" tabpos="2">
+		<Cursor position="230" topLine="0" />
+	</File>
+	<File name="Cleric.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="19" topLine="0" />
+	</File>
+	<File name="Cleric.h" open="1" top="0" tabpos="7">
+		<Cursor position="20" topLine="0" />
+	</File>
+	<File name="Factory.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="39" topLine="0" />
+	</File>
+	<File name="Fighter.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Fighter.h" open="1" top="0" tabpos="6">
+		<Cursor position="42" topLine="0" />
+	</File>
+	<File name="FighterInterface.h" open="1" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Robot.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="18" topLine="0" />
+	</File>
+	<File name="Robot.h" open="1" top="0" tabpos="8">
+		<Cursor position="20" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

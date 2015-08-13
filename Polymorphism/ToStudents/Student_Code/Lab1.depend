@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1380173040 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Archer.cpp
+	"Archer.h"
+
+1380173109 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Archer.h
+	"Fighter.h"
+
+1380174095 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Fighter.h
+	"FighterInterface.h"
+	<vector>
+
+1333730768 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/FighterInterface.h
+	<iostream>
+	<string>
+
+1380173399 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Arena.cpp
+	"Arena.h"
+	"Cleric.h"
+	"Robot.h"
+	"Archer.h"
+	<sstream>
+	<vector>
+
+1380174099 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Arena.h
+	"ArenaInterface.h"
+	<vector>
+
+1333569262 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/ArenaInterface.h
+	<iostream>
+	<string>
+	<vector>
+	"FighterInterface.h"
+
+1380173146 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Cleric.h
+	"Fighter.h"
+
+1380173144 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Robot.h
+	"Fighter.h"
+
+1380174192 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Cleric.cpp
+	"Cleric.h"
+
+1334020320 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Factory.cpp
+	"Factory.h"
+	"Arena.h"
+
+1334020320 /home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Factory.h
+	"ArenaInterface.h"
+
+1380174202 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Fighter.cpp
+	"Fighter.h"
+
+1380174223 source:/home/eeeyre/Documents/Fall2013/CS235/Lab1/ToStudents/Student_Code/Robot.cpp
+	"Robot.h"
+	<cmath>
+

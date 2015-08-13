@@ -1,0 +1,187 @@
+#include "LinkedList.h"
+
+LinkedList::~LinkedList(void)
+{
+	clear();
+}
+
+void LinkedList::insertHead(int value)
+{
+	if (value<0)
+	{
+		return;
+	}
+	Node* node_ptr=head;
+	while (node_ptr!=NULL)
+	{
+		if (node_ptr->data==value)
+		{
+		
+		return;
+		}
+		node_ptr=node_ptr->next;
+	}
+
+		head=new Node(value, head);
+	//delete node_ptr;
+	
+}
+
+void LinkedList::insertTail(int value)
+{
+if (value<0)
+{
+		return;
+}
+
+	Node* tailNode=new Node(value);
+	Node* node_ptr=head;
+	Node* prevNode;
+	if (head==NULL)
+	{
+	head=tailNode;
+	}
+	else 
+	{	
+		while (node_ptr!=NULL)
+		{
+			if (node_ptr->data==value)
+			{
+			//delete tailNode;
+			//delete node_ptr;
+			return;
+			}
+			if (node_ptr->next==NULL)
+			{
+			prevNode=node_ptr;
+
+			}
+			node_ptr=node_ptr->next;
+		}
+		prevNode->next=tailNode;
+	}
+	//delete tailNode;
+	//delete node_ptr;
+
+}
+
+void LinkedList::insertAfter(int value, int insertionNode)
+{
+	if (value<0 || insertionNode<0)
+	{
+		return;
+	}
+	
+	Node* insertNode=new Node(value);
+	Node* node_ptr=head;
+	while (node_ptr!=NULL)
+	{
+		if (node_ptr->data==value)
+		{
+			delete insertNode;
+			//delete node_ptr;
+			return;
+		}
+		node_ptr=node_ptr->next;
+	}
+	node_ptr=head;
+	while (node_ptr!=NULL&&node_ptr->data!=insertionNode)
+	{
+		node_ptr=node_ptr->next;
+	}
+	if (node_ptr==NULL||node_ptr->data!=insertionNode)
+	{
+		delete insertNode;
+		//delete node_ptr;
+		return;
+	}
+	insertNode->next=node_ptr->next;
+	node_ptr->next=insertNode;
+
+//delete insertNode;
+//delete node_ptr;
+
+}
+
+void LinkedList::remove(int value)
+{
+	Node* prevNode=NULL;
+	Node* node_str=head;
+	while (node_str!=NULL&&node_str->data!=value)
+	{
+		prevNode=node_str;
+		node_str=node_str->next;
+	}
+	if (node_str==NULL)
+	{
+		return;
+	}
+	
+			if (prevNode==NULL)
+			{
+				Node* delNode=head;
+				head=head->next;
+				delete delNode;
+			}
+			else
+			{
+				prevNode->next=node_str->next;
+				node_str->next=NULL;
+				delete node_str;	
+			}	
+}
+
+void LinkedList::clear()
+{
+	Node* nextNode=head;
+	while (nextNode!=NULL)
+	{
+		Node* currentNode=nextNode;
+		nextNode=nextNode->next;
+		delete currentNode;
+	}
+	head=NULL;
+	delete nextNode;
+}
+
+int LinkedList::at(int index)
+{
+	
+	int numNodes=0;
+	Node* node_ptr=head;
+	//Get the number of Nodes
+	while(node_ptr!=NULL)
+	{
+		numNodes++;
+		node_ptr=node_ptr->next;
+	}
+	
+	//Check that the index is non-negative, that head isn't NULL and that the number of nodes is less than index
+	if (index<0||head==NULL||numNodes<=index)
+	{
+		//delete node_ptr;
+		return -1;
+	}
+	node_ptr=head;
+	for (int i=0; i<index; i++)
+	{
+		node_ptr=node_ptr->next;	
+	}
+	//delete node_ptr;
+	return node_ptr->data;
+}
+
+int LinkedList::size()
+{
+	int numNodes=0;
+	Node* node_ptr=head;
+	while (node_ptr!=NULL)
+	{
+		numNodes++;
+		node_ptr=node_ptr->next;
+	}
+	//delete node_ptr;
+	return numNodes;
+}
+
+
